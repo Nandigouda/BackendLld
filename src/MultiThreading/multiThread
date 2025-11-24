@@ -1,0 +1,18 @@
+callable
+<<Runnable>>
+void run();
+
+
+<<Callable>>
+Object call();   Object-> parent clss of class
+
+insted of object we can use generic types
+<<Callable>>
+<T> call();
+
+Class Addition implement callable<T>{
+
+     <T> call(){
+
+           }
+  }
